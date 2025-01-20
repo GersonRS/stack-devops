@@ -285,7 +285,7 @@ module "airflow" {
 }
 
 module "argocd" {
-  source = "git::https://github.com/GersonRS/modern-gitops-stack-module-argocd.git?ref=v2.3.0"
+  source = "git::https://github.com/GersonRS/modern-gitops-stack-module-argocd.git?ref=v2.6.1"
 
   base_domain              = local.base_domain
   cluster_name             = local.cluster_name
