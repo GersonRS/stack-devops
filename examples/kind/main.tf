@@ -248,7 +248,7 @@ module "kube-prometheus-stack" {
 }
 
 module "airflow" {
-  source         = "git::https://github.com/GersonRS/modern-gitops-stack-module-airflow.git?ref=v1.3.0"
+  source         = "git::https://github.com/GersonRS/modern-gitops-stack-module-airflow.git?ref=v1.4.0"
   cluster_name   = local.cluster_name
   base_domain    = local.base_domain
   subdomain      = local.subdomain
