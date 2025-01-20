@@ -87,7 +87,7 @@ module "argocd_bootstrap" {
 }
 
 module "metrics-server" {
-  source = "git::https://github.com/GersonRS/modern-gitops-stack-module-metrics-server.git?ref=v2.5.0"
+  source = "git::https://github.com/GersonRS/modern-gitops-stack-module-metrics-server.git?ref=v2.7.0"
 
   argocd_project = module.eks.cluster_name
 
