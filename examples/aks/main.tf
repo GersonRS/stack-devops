@@ -66,7 +66,7 @@ module "argocd_bootstrap" {
 }
 
 module "traefik" {
-  source = "git::https://github.com/GersonRS/modern-gitops-stack-module-traefik.git//aks?ref=v1.3.0"
+  source = "git::https://github.com/GersonRS/modern-gitops-stack-module-traefik.git//aks?ref=v2.6.0"
 
   cluster_name   = module.aks.cluster_name
   base_domain    = module.aks.base_domain
